@@ -1,0 +1,21 @@
+button {
+  background-color: #E50914;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #E50914;
+  color: #fff;
+}
+img{
+  width: 100%;
+}
+
+h5{
+  color: white;
+}
+
+.search:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}

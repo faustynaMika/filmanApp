@@ -1,0 +1,86 @@
+
+.carousel-inner {
+  height: 700px;
+}
+
+.carousel-inner .carousel-item img {
+  height: 700px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.carousel-caption h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.carousel-caption {
+  color: white;
+
+}
+
+.rowposter {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.rowimg {
+  max-height: 200px;
+  object-fit: contain;
+  width: 100%;
+  box-sizing: content-box;
+  transition: transform 450ms;
+  margin-right: 7px;
+}
+
+.rowimg:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}
+
+.largeposter {
+  max-height: 300px;
+}
+
+.rowposter::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(14, 14, 14, 0.74);
+}
+
+.rowposter::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+  background-color: rgba(245, 245, 245, 0.37);
+}
+
+.rowposter::-webkit-scrollbar-thumb {
+  background-color: rgba(50, 94, 178, 0.62);
+  border: 1px solid rgba(50, 94, 178, 0.62);
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.icon {
+  background-color: #ffffff;
+}
+
+.arrow {
+  filter: none;
+  color: white;
+}
+
+.text-white {
+  font-weight: bold;
+}
+
+.shadow{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 3%, rgba(255,255,255,0) 70%);
+}
