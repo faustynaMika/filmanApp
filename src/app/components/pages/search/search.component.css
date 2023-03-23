@@ -19,3 +19,7 @@ h5{
   transform: scale(1.09);
   cursor: pointer;
 }
+.contain {
+  margin: 10rem auto;
+  width: 80%;
+}
